@@ -1,0 +1,38 @@
+#section-1 {
+  height: 560px;
+  background-size: contain;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 380px;
+}
+
+#section-2{
+  height: 650px;
+  background-size: contain;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.container p{
+  font-size: 20px;
+  position: relative;
+  margin-top: 5%;
+  box-sizing: inherit;
+}
+
+
+.container h3{
+  font-size: 50px;
+  align-items: center;
+  position: relative;
+  margin-top: 5%;
+  color: #27aae1;
+}
+
+.main-heading{
+  margin-top: 140px;
+  text-align: center;
+}
+
