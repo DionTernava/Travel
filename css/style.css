@@ -375,3 +375,61 @@ footer .h2{
 color:#bdbcb9
 }
 
+
+h1{
+	color: lightgray;
+	font-weight: bold;
+	margin-top:30px;
+	margin-left:5px;
+	position: relative; 
+
+}
+
+span{
+	color:#658587;
+}
+
+.section2{
+	color: black;
+	background-color:#d9d9d9;
+	position:center;
+	text-align: center;
+	padding: 50px;
+	
+
+}
+
+.div1{
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	padding: 13px;
+
+}
+
+.btn{
+	text-decoration: none;
+	border: 2px solid #658587;
+	background-color: transparent;
+	position: relative;
+
+}
+
+.btn:hover{
+	border-radius: 3px;
+	background-color:#658587;''
+	transition: .5s;
+  }
+
+img{
+	margin-left: 600px;
+	margin-top: 300px;
+}
+h1 {
+	margin-left: 600px;
+}
+h2 {
+	margin-left: 650px;
+}
+h3 {
+	margin-left: 100px;
+}
