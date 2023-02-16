@@ -1,9 +1,23 @@
-function scrolll(){
-  var left=document.getElementByClass('.scroll-img');
-  left.scrolllBy(350,0);
-}
+// $(document).ready(function(){
+//   $('.next').click(){
+//       console.log('clicked')
+//   }
+// })
 
-function scrollr(){
-  var right=document.getElementByClass('.scroll-img');
-  right.scrollrBy(-350,0);
-}
+$(document).ready(function() {
+  var form = $(".login-form");
+  var status = false;
+  $("#login").click(function(event){
+    event.preventDefault();
+    if(status == false){
+      form.fadeIn();
+      status = true;
+    }else {
+      form.fadeOut();
+      status = false;
+    };  
+  });
+})
+
+
+
