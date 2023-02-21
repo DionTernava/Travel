@@ -231,6 +231,10 @@ font-size: 16px;
 font-weight: normal;
 }
 
+.quetos p{
+    margin: 30px;
+}
+
 .youtube-link{
 margin: 90px;
 height: 100%;
@@ -259,13 +263,11 @@ transition: 0.2s ease;
 }
 
 .prices{
-    /*width:100px;
-    height: 200px;*/
+
     margin: 55px;
     margin-top: -548px;
     margin-left: 678px;
     font-style: normal;
-   /* background-color: whitesmoke;*/
     overflow: hidden;
 }
 
