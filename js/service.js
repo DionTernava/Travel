@@ -8,7 +8,7 @@ function showSlides(n){
 		slides[i].style.display = "none";
 	}
 
-	if(n > slides.lenth){
+	if(n >  slides.length){
 		slideIndex = 1;
 	}
 
