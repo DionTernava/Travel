@@ -1,3 +1,19 @@
+// Log-in popup form submit
+$(document).ready(function() {
+  var form = $(".login-form");
+  var status = false;
+  $("#login").click(function(event){
+    event.preventDefault();
+    if(status == false){
+      form.fadeIn();
+      status = true;
+    }else {
+      form.fadeOut();
+      status = false;
+    };  
+  });
+})
+
 // Get the navigation links
 const navLinks = document.querySelectorAll('nav a');
 
