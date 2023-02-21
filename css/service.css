@@ -150,45 +150,50 @@ color:#658587;
 #section2{
   height: 400px;
 }
+.resort{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .shape{
 background-color: lightblue;
+ top: -330px;
+position: relative;
   width: 200px;
- top: 100%;
   padding: 30px;
   margin: 200px;
-  margin-left:  20%;
+  margin-left:  19%;
   font-size: 25px;
   border-radius: 15px;
   text-align: center;
 
-
-}
-.shapes{
-  background-color: lightgreen;
-  width: 200px;
-  padding: 30px;
-  margin: 100px;
-  font-size: 30px;
-  border-radius: 15px;
-  position: relative;
-  margin-left: 40% ;
-  margin-top: -68%;
-  text-align: center;
 }
 
-.shapess{
-  background-color: orange;
-  width: 250px;
-  padding: 30px;
-  font-size: 25px;
-  border-radius: 15px;  
-  position: relative;
-  margin-left: 62%;
-  margin-top: -35%;
-  text-align: center;
+.shapes {
+    background-color: lightgreen;
+    margin-top: -9%;
+    margin-bottom: 35%;
+    width: 200px;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: -94%;
+    text-align: center;
 }
 
+.shapess {
+    background-color: orange;
+    margin-top: -9%;
+    margin-bottom: 35%;
+    width: 250px;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: -81%;
+    margin-right: 16%;
+    text-align: center;
+}
 
 
 
@@ -268,35 +273,74 @@ textarea{
 
 
 footer{
-height: 200px;
-background-color:#658587;
-display: flex;
-justify-content: space-between;
-font-size: 16px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #658587;
+    display: flex;
+    justify-content: center;
 }
 
-.footersectionabout{
-    display: flex;
-    justify-content: space-between;
+footer h1{
+    color: #eaeaea;
+    text-align: center;
 }
-.socials{
+footer ul{
+    list-style: none;
+    background-color: #658587;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer p {
+    color: #ccc;
+    max-width:400px;
+    font-size:15px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
     text-decoration: none;
-    text-align: left;
-    color: black ;
+}
+
+footer .contanier{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .menu li{
+    display: inline-block;
+    margin: 11px;
       }
 
-.contact{
-    position: relative;
-    top: 74px;
-    left: -48px;
-    text-decoration: none;
-    color: black;
-}
 
+ .footer p{
+    margin: 0 auto;
+ }
 
-footer span{
-color:lightgray;
-}
-footer .h2{
-color:#bdbcb9;
-}
+ .footer .media-icons{
+    margin: 24px 0 ;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 1px solid #fff;
+ }
+
+ .footer .menu a{
+    transition: 0.3s;
+    font-weight: 600;
+ }
+
+ .footer .menu a:hover{
+    color: gray;
+ }
+
