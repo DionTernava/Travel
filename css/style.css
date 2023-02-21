@@ -137,6 +137,7 @@ box-shadow: 3px;
     display: flex;
     justify-content: center;
     min-height: 250px;
+    height: 700px;
     padding: 30px 90px;
     align-items: center;
 
@@ -263,11 +264,13 @@ transition: 0.2s ease;
 }
 
 .prices{
-
+    /*width:100px;
+    height: 200px;*/
     margin: 55px;
     margin-top: -548px;
     margin-left: 678px;
     font-style: normal;
+   /* background-color: whitesmoke;*/
     overflow: hidden;
 }
 

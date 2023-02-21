@@ -1,216 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <style type="text/css">
-        <style>
-    body{
-margin: 0;
-padding: 0;
-font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-box-sizing: border-box;
-
-
-}
-
-
-.section-1{
-height:100px;
-padding:21px;
-margin-right: auto;
-margin-left: auto;
-
-}
-
-
-.header{
-padding:5px;
-display: flex;
-justify-content: space-around;
-background-color:white;
-
-}
-
-nav ul li {
-display:inline-block;
-padding: 16px 10px;
-
-
-}
-
-nav ul li a{
-text-decoration: none;
-color:#284b63;
-padding: 5px;
-float: left;
-display: flex;
-font-size: 19px;
-z-index: 1;
-
-
-}
-
-nav ul li :hover{
-background-color:#658587;
-border-radius: 5px;
-transition: 0.8s;
-color: lightgray;
-
-}
-
-
-.h1{
-color: lightgray;
-font-weight: bold;
-margin-top:30px;
-margin-left:2px;
-position: relative;
-font-size:33px;
-
-
-}
-
-span{
-color:#658587;
-}
-</style>
-    </style>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Traveling Around the World Blog</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <h1 class="h1"> TRA <span>VEL</span>
-    </h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="service.html">Service</a>
-        </li>
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-        <li class="user">
-          <i class="fa-solid fa-user" id="login" style="width:20px; height: 20px;"></i>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <article>
-      <header>
-        <h1>My Adventures in Japan</h1>
-        <p class="post-meta">By John Smith | August 10, 2022</p>
-      </header>
-      <img src="japan.jpg" alt="A photo of Japan">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu libero eu turpis mattis luctus. Aliquam congue sit amet felis sed blandit. Proin bibendum tellus nec lectus eleifend vehicula. Praesent fringilla consequat velit id euismod. Sed feugiat volutpat justo, vel bibendum nisl pulvinar vel.</p>
-      <p>Suspendisse potenti. Nulla facilisi. Nulla gravida lacus eu ligula convallis interdum. Suspendisse potenti. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean elementum orci nec hendrerit mollis. Integer vitae ex bibendum, dictum velit eget, malesuada ex. In hac habitasse platea dictumst. Donec ut diam eu magna hendrerit fringilla. Vestibulum vitae sem hendrerit, sollicitudin est ac, imperdiet elit. Donec congue tincidunt risus id tempor.</p>
-      <footer>
-        <p class="tags">Tags: <a href="#">Japan</a>, <a href="#">Travel</a>
-        </p>
-      </footer>
-    </article>
-    <article>
-      <header>
-        <h1>Hiking in Patagonia</h1>
-        <p class="post-meta">By Jane Doe | July 15, 2022</p>
-      </header>
-      <img src="patagonia.jpg" alt="A photo of Patagonia">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu libero eu turpis mattis luctus. Aliquam congue sit amet felis sed blandit. Proin bibendum tellus nec lectus eleifend vehicula. Praesent fringilla consequat velit id euismod. Sed feugiat volutpat justo, vel bibendum nisl pulvinar vel.</p>
-      <p>Suspendisse potenti. Nulla facilisi. Nulla gravida lacus eu ligula convallis interdum. Suspendisse potenti. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean elementum orci nec hendrerit mollis. Integer vitae ex bibendum, dictum velit eget, malesuada ex. In hac habitasse platea dictumst. Donec ut diam eu magna hendrerit fringilla. Vestibulum vitae sem hendrerit, sollicitudin est ac, imperdiet elit. Donec congue tincidunt risus id tempor.</p>
-      <footer>
-        <p class="tags">Tags: <a href="#">Patagonia</a>, <a href="#">Hiking</a>, <a href="#">Adventure</a>
-        </p>
-      </footer>
-    </article>
-  </main>
-  <aside>
+    <title>Travel Around the World Blog</title>
+    <style>
+    </style>
+  </head>
+  <body>
+<section class="section-1">
+<header class="header">
+
+<h1 class="h1"> TRA<span>VEL</span></h1>
+<nav>
+<!-- <input type="checkbox" class="check">
+<label for="check" class="checkbtn"><i class="fas fa-bars"></i></label> -->
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="service.html">Service</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li class="user"><i class="fa-solid fa-user" id="login" style="width:20px; height: 20px;"></i></li>
+</ul>
+</nav>
+   </header>
+   <div class="login-form">
+    <label class="usesrname">Username</label>
+<div>
+<input type="text" placeholder="Username" required/>
+</div>
+<label class="password">Password</label>
+<div >
+<input type="Password" placeholder="Password" required/>
+</div>
+ <div>
+      <input type="checkbox" id="remember" name="remember" checked style="color:blue;">
+      <label for="remember" style="color: gray; bottom: 5px;">Remember</label>
+    </div>
+<div>
+<button type="submit">Log In</button>
+</div>
+<div>
+<a href="#" style="text-decoration:none; position:relative; top:10px; font-size: 14px; color:#8a8a8a; ">Forget my password</a>
+</div>
+</div>
+</section>
     <section>
-      <h2>Popular Destinations</h2>
-      <ul>
-        <li>
-          <a href="#">Thailand</a>
-        </li>
-        <li>
-          <a href="#">Australia</a>
-        </li>
-        <li>
-          <a href="#">Italy</a>
-        </li>
-        <li>
-          <a href="#">Canada</a>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Recent Posts</h2>
-      <ul>
-        <li>
-          <a href="#">My Adventures in Japan</a>
-        </li>
-        <li>
-          <a href="#">Hiking in Patagonia</a>
-        </li>
-        <li>
-          <a href="#">Exploring the Temples of Angkor Wat</a>
-        </li>
-        <li>
-          <a href="#">Safari in the Serengeti</a>
-        </li>
-      </ul>
-    </section>
-  </aside>
-  <footer>
-    <div class="footer">
-      <div class="footersectionabout ">
-        <h1 class="logo">
-          <span>TRA</span>VEL
-        </h1>
-        <div class="contact">
-          <span>
-            <i class="fas fa-phone "></i> 012-345-678 </span>
-          <br>
-          <span>
-            <i class="fas fa-envelope"></i> info@travel.com </span>
-          <div class="socials">
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-gmail"></i>
-            </a>
-          </div>
-        </div>
-        <div class="footersection links ">
-          <br>
-          <p> Quick Links </p>
-          <ul>
-            <li>
-              <a href="index.html"></a>Home
-            </li>
-            <li>
-              <a href="service.html"></a>Service
-            </li>
-            <li>
-              <a href="blog.html"></a>Blog
-            </li>
-            <li>
-              <a href="contact.html"></a>Contact
-            </li>
-          </ul>
-        </div>
-  </footer>
+      <article>
+        <img src="japan.png" alt="Image 1">
+        <h2>Exploring Tokyo, Japan</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum, nisi ac malesuada dignissim, ipsum nunc eleifend dui, id pharetra magna arcu eu turpis.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.1113741047856!2d139.74946161487146!3d35.6894878902831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d111c2b7f9769%3A0xf91b369826277f15!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sus!4v1645431910187!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </article>
+      <article>
+        <img src="alps.jpg" alt="Image 2">
+<h2>Hiking in the Swiss Alps</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum, nisi ac malesuada dignissim, ipsum nunc eleifend dui, id pharetra magna arcu eu turpis.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43815.652600547425!2d8.049211581441726!3d46.480090008870824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478db6ce8629f447%3A0xa2926b66c6fb089e!2sSwiss%20Alps!5e0!3m2!1sen!2sus!4v1645432031538!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</article>
+<article>
+<img src="reef.jpg" alt="Image 3">
+<h2>Snorkeling in the Great Barrier Reef</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum, nisi ac malesuada dignissim, ipsum nunc eleifend dui, id pharetra magna arcu eu turpis.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231078.0182898771!2d146.06935195473634!3d-18.156293643553467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bd7c3b52f9ac8c5%3A0xe40b3c2b6f8f6d09!2sGreat%20Barrier%20Reef%2C%20Australia!5e0!3m2!1sen!2sus!4v1645432124499!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</article>
+</section>
+<footer>
+<div class="fotter">
+<h1>TRAVEL</h1>
+<ul class="menu">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="service.html">Service</a>
+</li>
+<li>
+<a href="blog.html">Blog</a>
+</li>
+<li>
+<a href="contact.html">Contact</a>
+</li>
+</ul>
+<ul class="media-icons">
+<li>
+<a href="#">
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-youtube"></i>
+</a>
+</li>
+</ul>
+<p>Travel  is a great example of a travel blog that excels at everything from unique adventure stories to a beautiful layout that doesn't dilute the content.</p>
+
+</div>
+</footer>
+</body>
+<<script src="js/jquery-3.6.3.min.js"></script>
+<script rel="stylesheet" href="https://kit.fontawesome.com/4a26eb580f.css" crossorigin="anonymous"></script>
+<script src="js/blog.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
