@@ -22,6 +22,81 @@ font-size:33px;
 display: flex;
 }
 
+.user{
+	text-align: center;
+	font-size: 19px;
+    margin-top: 15px;
+    padding-top: 6px;
+    position: absolute;
+}
+
+.user:hover{
+background-color:#658587;
+border-radius: 5px;
+transition: 0.8s;
+color: lightgray;
+padding: 9px;
+}
+
+.login-form{
+	position: absolute;
+	width: 350px;
+	height:210px;
+	background-color: whitesmoke;
+	right:20px;
+	padding-left:40px;
+  padding-top: 10px;
+    top: 106px;
+    margin: 0 auto;
+    border-radius: 7px;
+    border-bottom: 5px solid lightgray;
+    display: none;
+  }
+
+  .login-form>form{
+  	position: absolute;
+  	width: 350px;
+  	top: 10px;
+  	height: auto;
+  	margin: 25px auto;
+  	font-size: 16px;
+  	color: darkgray;
+  	font-family: sans-serif ,arial;
+  	letter-spacing:0.005px;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+  	width: 250px;
+  	height: 30px;
+  	border: 0;
+  	outline: none;
+  	border-radius: 7px;
+  	box-shadow: 0 0 15px #eee;
+  	margin-top: 6px;
+  	font-family: sans-serif,Arial;
+  	font-size: 16px;
+
+  }
+
+  button[type="submit"]{
+  	width: 95%;
+  	height: 35px;
+  	font-size: 16px;
+  	background-color:#658587 ;
+  	font-weight: bold;
+  	font-family: sans-serif,Arial;
+  	color: white;
+  	outline: none;
+  	border:0px;
+  	border-radius: 4px;
+  	letter-spacing: 0.05px;
+  }
+
+   button[type="submit"]:hover{
+   	background-color: #576c6e;
+   }
+
 .header {
   padding: 5px;
   display: flex;
