@@ -8,7 +8,11 @@ function showSlides(n){
 		slides[i].style.display = "none";
 	}
 
+<<<<<<< HEAD
 	if(n > slides.length){
+=======
+	if(n >  slides.length){
+>>>>>>> 11e2b278a966abd1861d2b6b71319d679440f696
 		slideIndex = 1;
 	}
 

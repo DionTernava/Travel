@@ -166,7 +166,11 @@ color:#658587;
 }
 
 .shape{
+<<<<<<< HEAD
 background-color: #cbd6ce;
+=======
+background-color: lightblue;
+>>>>>>> 11e2b278a966abd1861d2b6b71319d679440f696
  top: -345px;
 position: relative;
   width: 200px;

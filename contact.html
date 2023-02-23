@@ -4,10 +4,48 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 </head>
 <body>
+
+<div class="uup">
+
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 	<section class="section-1">
 <header class="header">
 
@@ -23,6 +61,12 @@
 </nav>
    </header>
 </section>
+
+
+
+</style>
+</head>
+<body>
 
 	     <section class="img">
         <div class="head"></div>
@@ -41,19 +85,22 @@
 						<p>-Prishtina</p>
 					</div>
 				</div>
+				<br>
 				<div class="box">
 					<div class="text">
 						<h3>Phone</h3>
-						<p>-044-***-***<p>
+						<p>-0-123-456-789<p>
 					</div>
 				</div>
-
+				<br>
 					<div class="box">
 					<div class="text">
 						<h3>Email Address</h3>
 						<p>-travel@gmail.com<p>
 					</div>
-			</div>
+				</div>
+
+
 			<div class="contactForm">
 				<form>
 					
@@ -66,46 +113,76 @@
 						<input type="text" name="" required="required">
 						<span>Email</span>
 					</div>
-					<div class="inputBox">
+						<div class="inputBox">
 						<textarea required="required"></textarea>  
 						<span>Type your Message</span>
 					</div>
-					<div class="inputBox">
+
+
+						<div class="inputBox">
 						<input type="submit" name="" value="Send">
 					</div>
 						</div>
+
 
 				</form>
 			</div>
 		</div>
 	</section>
 
-	<footer>
-<div class="footer">
-     <div class="footersectionabout ">
-<h1 class="logo"><span>TRA</span>VEL</h1>
-<div class="contact">
-<span><i class="fas fa-phone "></i> 012-345-678</span> <br>
-<span><i class="fas fa-envelope"></i> info@travel.com</span>
-<div class="socials">
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-facebook"></i></a>
-                           <a href="#"><i class="fab fa-twitter"></i></a>
-                           <a href="#"><i class="fab fa-gmail"></i></a>
-</div>
 
-                    </div>
-<div class="footersection links ">
-<br>
- <p> Quick Links </p>
- <ul>
-  <li><a href="index.html"></a>Home</li>
-  <li><a href="service.html"></a>Service</li>
-  <li><a href="blog.html"></a>Blog</li>
-  <li><a href="contact.html"></a>Contact</li>
- </ul>
- </div>
+</style>
+</head>
+<body>
+
+
+
+	<footer>
+<div class="fotter">
+<h1>TRAVEL</h1>
+<ul class="menu">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="service.html">Service</a>
+</li>
+<li>
+<a href="blog.html">Blog</a>
+</li>
+<li>
+<a href="contact.html">Contact</a>
+</li>
+</ul>
+<ul class="media-icons">
+<li>
+<a href="#">
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fab fa-youtube"></i>
+</a>
+</li>
+</ul>
+<p>Travel  is a great example of a travel blog that excels at everything from unique adventure stories to a beautiful layout that doesn't dilute the content.</p>
+
+</div>
 </footer>
+
+<script src="js/contact.js" type="text/javascript" charset="utf-8" async defer></script>
+
 
 
 </body>
