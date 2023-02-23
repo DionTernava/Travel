@@ -12,6 +12,16 @@ body {
   margin-left: auto;
 }
 
+.h1{
+color: lightgray;
+font-weight: bold;
+margin-top:16px;
+margin-left:2px;
+position: relative;
+font-size:33px;
+display: flex;
+}
+
 .header {
   padding: 5px;
   display: flex;

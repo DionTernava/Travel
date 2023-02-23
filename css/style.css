@@ -402,9 +402,10 @@ padding: 9px;
 	background-color: whitesmoke;
 	right:20px;
 	padding-left:40px;
+  padding-top: 10px;
     top: 106px;
     margin: 0 auto;
-    border-radius: 2px;
+    border-radius: 7px;
     border-bottom: 5px solid lightgray;
     display: none;
   }
