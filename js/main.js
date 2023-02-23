@@ -14,6 +14,10 @@ $(document).ready(function() {
   });
 })
 
+function myFunction() {
+  alert("You have been logged in");
+}
+
 anime.timeline({loop: true})
   .add({
     targets:'.list .word',
