@@ -7,7 +7,6 @@ box-sizing: border-box;
 
 }
 
-
 .section11{
 height:100px;
 padding:21px;
@@ -70,9 +69,6 @@ color:#658587;
 }
 
 
-
-
-
 #section-1 {
   height: 500px;
   background-size: contain;
@@ -100,7 +96,7 @@ color:#658587;
 .prev , .next{
   cursor: pointer;
   position: absolute;
-  top: 70%;
+  top: 50%;
   padding: 20px;
 }
 
@@ -117,8 +113,8 @@ color:#658587;
 }
 
 #section-2{
+  background-color: white;
   height: 650px;
-  background-size: contain;
   font-size: 45px;
   text-align: center;
   padding-top: 50px;
@@ -126,7 +122,7 @@ color:#658587;
 }
 
 .container p{
-    font-size: 20px;
+  font-size: 20px;
   position: relative;
   margin-top: 5%;
   margin-left: 15%;
@@ -139,7 +135,7 @@ color:#658587;
   align-items: center;
   position: relative;
   margin-top: 5%;
-  color: #27aae1;
+  color: #666666;
 }
 
 .main-heading{
@@ -147,18 +143,31 @@ color:#658587;
   text-align: center;
 }
 
+
 #section2{
   height: 400px;
 }
 .resort{
   display: flex;
   justify-content: space-between;
+  
 }
 
+.fa-heart{
+  color: #b30000;
+}
+
+.fa-plane{
+  color: #4974a5;
+}
+
+.fa-bed{
+  color:#413839;
+}
 
 .shape{
-background-color: lightblue;
- top: -330px;
+background-color: #cbd6ce;
+ top: -345px;
 position: relative;
   width: 200px;
   padding: 30px;
@@ -171,7 +180,7 @@ position: relative;
 }
 
 .shapes {
-    background-color: lightgreen;
+    background-color: #cbd6ce;
     margin-top: -9%;
     margin-bottom: 35%;
     width: 200px;
@@ -183,7 +192,7 @@ position: relative;
 }
 
 .shapess {
-    background-color: orange;
+    background-color: #cbd6ce;
     margin-top: -9%;
     margin-bottom: 35%;
     width: 250px;
@@ -196,6 +205,99 @@ position: relative;
 }
 
 
+.line{
+  height: 4px;
+  width: 400px;
+  background-color: #AA336A;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+#sectionicon{
+   height: 700px;
+   background-color: lightgray;
+}
+
+.fa-earth-americas {
+  color: #AA336A;
+}
+
+.fa-file-pen {
+  color: #AA336A;
+}
+
+
+.fa-wine-bottle {
+  color: #AA336A;
+}
+
+
+
+.memories{
+  width: 100%;
+  margin-top: 50%;
+}
+
+.memories h3{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.memories h1{
+  margin-top: -700px;
+  text-align: center;
+}
+
+.plan{
+ justify-content: space-between;
+  width: 100%;
+  margin-top: 50%;
+}
+
+.plan p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.plan h2{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.earth {
+  width: 20%;
+ text-align: center;
+  margin-left: 10%;
+  margin-top: 9%;
+}
+
+.pen{
+width: 20%;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: -15%;
+}
+
+.wine{
+width: 20%;
+  text-align: center;
+  margin-left: 70%;
+  margin-top: -15%;
+  
+    
+
+}
+
 
 #section-3 {
   height: 500px;
@@ -206,7 +308,7 @@ position: relative;
   text-align: center;
   margin: 40px;
   font-size: 20px;
-  color: orange;
+  color: #003333;
 }
 
 .contact {
@@ -312,7 +414,6 @@ footer .contanier{
     padding: 32px;
 
 }
-
 .footer {
     text-align: center;
 }

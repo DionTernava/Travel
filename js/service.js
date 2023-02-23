@@ -8,7 +8,7 @@ function showSlides(n){
 		slides[i].style.display = "none";
 	}
 
-	if(n > slides.lenth){
+	if(n > slides.length){
 		slideIndex = 1;
 	}
 
@@ -26,3 +26,5 @@ function pulseSlides(n){
 	slideIndex +=n;
 	showSlides(slideIndex);
 }
+
+setInterval(pulseSlides, 2000, 1);
