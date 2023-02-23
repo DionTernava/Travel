@@ -1,4 +1,4 @@
-// Log-in popup form submit
+ // Log-in popup form submit
 $(document).ready(function() {
   var form = $(".login-form");
   var status = false;
@@ -35,8 +35,8 @@ const postImages = document.querySelectorAll('article img');
 postImages.forEach(image => {
   image.addEventListener('click', function() {
     // Create a new lightbox element
-    const lightbox = document.createElement('div');
-    lightbox.classList.add('lightbox');
+    // const lightbox = document.createElement('div');
+    // lightbox.classList.add('lightbox');
 
     // Create a new image element inside the lightbox
     const lightboxImage = document.createElement('img');
