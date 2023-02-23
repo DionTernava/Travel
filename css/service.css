@@ -150,7 +150,7 @@ color:#658587;
 .resort{
   display: flex;
   justify-content: space-between;
-  
+ 
 }
 
 .fa-heart{
@@ -166,11 +166,7 @@ color:#658587;
 }
 
 .shape{
-<<<<<<< HEAD
 background-color: #cbd6ce;
-=======
-background-color: lightblue;
->>>>>>> 11e2b278a966abd1861d2b6b71319d679440f696
  top: -345px;
 position: relative;
   width: 200px;
@@ -297,21 +293,24 @@ width: 20%;
   text-align: center;
   margin-left: 70%;
   margin-top: -15%;
-  
-    
+ 
+   
 
 }
 
 
 #section-3 {
-  height: 500px;
+  height: 600px;
+  background-size: contain;
 }
 
-.travel {
+.travel h2{
   position: relative;
-  text-align: center;
-  margin: 40px;
   font-size: 20px;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 15%;
+  font-size: 25px;
   color: #003333;
 }
 
@@ -320,7 +319,7 @@ width: 20%;
   width: 15%;
   height: 50%;
   padding: 20px;
-  padding-top: 70px;
+  padding-top: 40px;
   margin-left: 300px;
   font-size: 30px;
 }
@@ -378,12 +377,14 @@ textarea{
 }
 
 
+
 footer{
     box-sizing: border-box;
     color: #fff;
     background-color: #658587;
     display: flex;
     justify-content: center;
+    margin-top: 6%;
 }
 
 footer h1{
@@ -418,6 +419,7 @@ footer .contanier{
     padding: 32px;
 
 }
+
 .footer {
     text-align: center;
 }
@@ -448,4 +450,6 @@ footer .contanier{
  .footer .menu a:hover{
     color: gray;
  }
+
+
 
