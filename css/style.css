@@ -138,7 +138,7 @@ box-shadow: 3px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 190px;
     padding: 30px 90px;
     align-items: center;
 
@@ -269,7 +269,7 @@ transition: 0.2s ease;
     margin: 55px;
     padding-top: 10px;
     margin-top: -555px;
-    margin-left: 828px;
+    margin-left: 1000px;
     margin-right: 50px;
     font-style: normal;
     overflow: hidden;
